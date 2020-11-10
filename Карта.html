@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC >
+
+<html xmlns="http://www.my vizit">
+<head>
+<meta charset="utf-8">
+  <meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+  <meta name="ProgId" content="FrontPage.Editor.Document">
+<title></title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="container">
+    <div id="header">
+    	<div id="logo"><a href="#">мой сайт визитка</a></div>
+        <div id="menu">
+        	<ul>
+              <li><a href="index.html">Главная</a></li>
+              <li><a href="Моё фото.html">Моё фото</a></li>
+              <li><a href="Моя группа.html">Моя группа</a></li>
+              <li><a href="Карта.html">Карта
+              </a></li>
+             
+          </ul>
+      </div>
+  </div>
+    
+               
+  <h1>My First Google Map</h1>
+
+<div id="map" style="width:100%;height:500px;background:green"></div>
+
+<script>
+function myMap() {
+  var mapCanvas = document.getElementById("map");
+  var mapOptions = {
+    center: new google.maps.LatLng(51.5, -0.2), zoom: 10
+  };
+  var map = new google.maps.Map(mapCanvas, mapOptions);
+}
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?https://maps.googleapis.com/maps/api/js?key=AIzaSyDR8P72HMX3zllKeeZt8X89dJWMEu0LSX8&callback=myMap"
+    async defer>
+    </script>
+               
+    
+        
+    
+    </div>
+   
+    <div id="footer">
+    <div id="left_footer">&copy; Выполнил 3751 Искаков А.Ю.
+    </div>
+    <div id="right_footer">
+design<a> by Iskakov</a>
+
+    </div>
+    </div>
+    
+
+</body>
+</html>
